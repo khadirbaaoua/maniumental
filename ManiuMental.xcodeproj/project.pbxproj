@@ -13,6 +13,8 @@
 		18D4AC721CFD731500775076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D4AC711CFD731500775076 /* Assets.xcassets */; };
 		18D4AC751CFD731500775076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D4AC731CFD731500775076 /* LaunchScreen.storyboard */; };
 		18D4AC801CFD731500775076 /* ManiuMentalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4AC7F1CFD731500775076 /* ManiuMentalTests.swift */; };
+		18F5F40C1D09B59000308D0F /* MonumentHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5F40B1D09B59000308D0F /* MonumentHelper.swift */; };
+		18F5F4121D0B094E00308D0F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5F4111D0B094E00308D0F /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		18D4AC7B1CFD731500775076 /* ManiuMentalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManiuMentalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D4AC7F1CFD731500775076 /* ManiuMentalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManiuMentalTests.swift; sourceTree = "<group>"; };
 		18D4AC811CFD731500775076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F5F40B1D09B59000308D0F /* MonumentHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonumentHelper.swift; sourceTree = "<group>"; };
+		18F5F4111D0B094E00308D0F /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		18D4AC691CFD731500775076 /* ManiuMental */ = {
 			isa = PBXGroup;
 			children = (
+				18F5F4111D0B094E00308D0F /* StringExtension.swift */,
 				18D4AC6A1CFD731500775076 /* AppDelegate.swift */,
 				18D4AC6C1CFD731500775076 /* ViewController.swift */,
 				18D4AC6E1CFD731500775076 /* Main.storyboard */,
 				18D4AC711CFD731500775076 /* Assets.xcassets */,
 				18D4AC731CFD731500775076 /* LaunchScreen.storyboard */,
 				18D4AC761CFD731500775076 /* Info.plist */,
+				18F5F40B1D09B59000308D0F /* MonumentHelper.swift */,
 			);
 			path = ManiuMental;
 			sourceTree = "<group>";
@@ -197,6 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F5F4121D0B094E00308D0F /* StringExtension.swift in Sources */,
+				18F5F40C1D09B59000308D0F /* MonumentHelper.swift in Sources */,
 				18D4AC6D1CFD731500775076 /* ViewController.swift in Sources */,
 				18D4AC6B1CFD731500775076 /* AppDelegate.swift in Sources */,
 			);
@@ -390,6 +398,7 @@
 				18D4AC861CFD731500775076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D4AC871CFD731500775076 /* Build configuration list for PBXNativeTarget "ManiuMentalTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +407,7 @@
 				18D4AC891CFD731500775076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
